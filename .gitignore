@@ -1,0 +1,11 @@
+# Ignorar node_modules en ambos proyectos
+github-user-search/node_modules/
+angular-microfrontend/node_modules/
+
+# Ignorar archivos de configuración local
+github-user-search/.env.local
+angular-microfrontend/.env
+
+# Ignorar carpetas de build
+github-user-search/.next/
+angular-microfrontend/dist/

@@ -1,0 +1,26 @@
+{
+  "name": "github-user-search",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^8.8.18",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "next": "15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.85.1",
+    "webpack": "^5.98.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1"
+  }
+}

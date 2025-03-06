@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md-6 mx-auto mt-5">
+      <div *ngIf="user$ | async as user" class="border p-3 mt-3 rounded shadow">
+        <div class="w-50 mx-auto text-center">
+          <h1>{{ user.login }}</h1>
+          <img [src]="user.avatar_url" [alt]="user.login" class="img-fluid rounded-circle">
+        </div>
+        
+        <p>Nombre: {{ user.name || 'N/A' }}</p>
+        <p>Ubicación: {{ user.location || 'N/A' }}</p>
+        <p>Seguidores: {{ user.followersText }}</p>
+        <p>Siguiendo: {{ user.following }}</p>
+        <p>Repositorios públicos: {{ user.public_repos }}</p>
+        <div class="d-flex justify-content-between w-50 mx-auto mt-3">
+          <button (click)="viewFollowers(user.login)" class="btn btn-outline-dark">Ver seguidores</button>
+          <button (click)="goBack()" class="btn btn-outline-secondary">Volver</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  
