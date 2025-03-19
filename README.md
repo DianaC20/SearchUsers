@@ -1,13 +1,13 @@
 Proyecto Next.js + Angular
 Este proyecto consiste en una integración entre una aplicación Next.js (frontend) y una aplicación Angular (backend) para buscar usuarios de GitHub
-1. Next.js (Frontend)
+1. Next.js
   Funcionalidad:
     Busca usuarios de GitHub utilizando la API de GitHub.
     Muestra una lista de usuarios con un botón "Ver más".
   Tecnologías:
     Next.js
     Bootstrap 
-2. Angular (Backend)
+2. Angular
   Funcionalidad:
     Proporciona una API para obtener los detalles de un usuario de GitHub.
     Maneja errores y muestra mensajes adecuados.
